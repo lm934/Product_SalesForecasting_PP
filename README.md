@@ -1,9 +1,7 @@
 # Sales Prediction Using Python
 
 
-![MasterHead](https://www.leadsquared.com/wp-content/uploads/2021/11/banner-4-3.png)
-
-<font size="1">Image Courtesy: https://www.leadsquared.com/wp-content/uploads/2021/11/banner-4-3.png</font>
+![MasterHead](Media/Banner.png)
 
 Click on the following links to checkout the colab file & video presentation.
 - [Article](https://medium.com/p/87d2efd85da7)
@@ -107,9 +105,5 @@ This project not only addresses the nuances of sales prediction but also highlig
 
 ## Author
 
-- [Arindam Paul](https://www.linkedin.com/in/arindam-paul-19a085187/)
+- [Lavanya Mullachery](https://www.linkedin.com/in/lavanya-mullachery/)
 
----
-
-## Reference
- - [Oasis Infobyte](https://oasisinfobyte.com/)
