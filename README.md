@@ -5,7 +5,7 @@
 
 Click on the following links to checkout the colab file & video presentation.
 - [Article](https://medium.com/@lavanya934/eda-and-product-sales-forecasting-using-machine-learning-models-regression-models-87d2efd85da7)
-- [Video](https://drive.google.com/file/d/1v1dNz0WB5ykNDCO4PsN2xP272mWv3Q25/view?usp=sharing)
+- [Video](https://www.loom.com/share/846600a7c6064cf68e640ac926dbc329?sid=88506528-2b85-4e26-9c3b-57a23937cad9)
 - [Tableau](https://public.tableau.com/app/profile/lavanya.m1629/viz/Project-SalesDashboard_17383920717830/OverallOverview)
 
 ---
