@@ -4,7 +4,7 @@
 ![MasterHead](Media/Banner.png)
 
 Click on the following links to checkout the colab file & video presentation.
-- [Article](https://medium.com/p/87d2efd85da7)
+- [Article](https://medium.com/@lavanya934/eda-and-product-sales-forecasting-using-machine-learning-models-regression-models-87d2efd85da7)
 - [Video](https://drive.google.com/file/d/1v1dNz0WB5ykNDCO4PsN2xP272mWv3Q25/view?usp=sharing)
 
 
