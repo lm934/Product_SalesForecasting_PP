@@ -12,17 +12,29 @@ Click on the following links to checkout the colab file & video presentation.
 
 ## Problem Statement
 
-The problem at hand involves predicting future sales for product and service-based businesses. With the dynamic nature of the market, businesses need to anticipate sales figures based on various factors, including advertising expenses, audience targeting, and the choice of advertising platforms.
+The problem at hand involves predicting future sales for product. Effective sales forecasting is fundamental for multiple aspects of retail management and operation, including:
+
+    Inventory Management: Accurate sales forecasts help ensure that stores maintain optimal inventory levels—enough to meet customer demand without overstocking, which can lead to increased costs or waste, especially in the case of perishable goods. 
+
+    Financial Planning: Forecasting sales allows businesses to estimate future revenue and manage budgets more effectively. This is crucial for allocating resources to areas such as marketing, staffing, and capital investments.
+
+    Marketing and Promotions: Understanding when sales peaks and troughs are likely to occur enables retailers to plan effective marketing campaigns and promotional offers to boost revenue or manage customer flow.
+
+    Supply Chain Optimization: Sales forecasts inform production schedules, logistics, and distribution plans, ensuring that products are available where and when they are needed, thereby reducing transportation and storage costs.
+
+    Strategic Decision Making: Long-term sales forecasting supports broader business strategies, including store expansions, market entry, and other capital expenditures.
+
 
 **Challenges:**
 
-1. **Variable Impact of Advertising:** Understanding how different levels of advertising expenditure influence sales is a complex challenge.
-2. **Audience Segmentation:** Identifying and analyzing the diverse audience segments to predict their impact on sales.
-3. **Platform Optimization:** Determining the optimal advertising platforms for maximizing sales outcomes.
+1. Data-Related Challenges:  Limited or insufficient past data may not provide enough patterns for accurate forecasting.
+2. External Factors Affecting Sales: Unexpected events/ Economic factors
+3. Model-Related Challenges: Deciding between statistical models (ARIMA, exponential smoothing) and machine learning models
+
 
 **Objective:**
 
-Develop a machine learning model using Python to predict future sales. The model should provide actionable insights into the relationships between advertising investments, audience segments, and advertising platforms with sales figures.
+Develop a machine learning model using Python to predict future sales. Then  Deployment via Flask API.
 
 **Importance:**
 
@@ -42,7 +54,8 @@ The successful execution of this project will result in a reliable tool for busi
 
 **Objective:**
 
-In this data science project, the goal is to predict future sales for product and service-based businesses. The prediction factors include advertising expenditures, audience segmentation, and advertising platforms.
+In this data science project, the goal is to predict future sales for product and service-based businesses. The prediction factors include Data-Related Challenges, External Factors Affecting Sales, and adapt to changing market dynamics effectively.
+
 
 **Scope:**
 
@@ -50,9 +63,9 @@ Sales prediction is a critical tool for businesses, aiding in decision-making re
 
 **Key Components:**
 
-- **Advertising Expenditure Analysis:** Explore the impact of advertising costs on sales predictions.
-- **Audience Segmentation:** Understand how different audience segments contribute to variations in sales.
-- **Platform Influence:** Investigate the role of advertising platforms in shaping sales outcomes.
+Demand Planning : Helping inventory management teams stock the right products.
+Pricing Strategy : Adjusting prices based on predicted demand.
+Marketing & Promotions : Timing promotions to maximize sales impact.
 
 **Implementation:**
 
@@ -66,36 +79,24 @@ The project aims to deliver a robust sales prediction model, enabling businesses
 
 ## Results
 
-I have selected r2 score as the primary evaluation metric for the Sales Prediction model. And after removing the overfitted models which have r2 scores for train as 100%, we get the final list:
+I have selected r2 score as the primary evaluation metric for the Sales Prediction model. The final list:
 
-| Sl. No. | Regression Model      |   Train R2 (%) |   Test R2 (%) |
-|:--------|:--------------------------|---------------:|--------------:|
-|    1    | Linear regression       |       88.98  |      90.99 |
-|    2    | Linear regression tuned       |       88.98  |      90.99 |
-|    3    | Lasso regression               |       81.82 |      83.65 |
-|    4    | Lasso with alpha = 0.01         |       88.98 |      91.02 |
-|    5    | Ridge regression         |       88.98 |      90.93 |
-|    6    | Ridge with alpha = 1         |       88.98 |      90.93 |
-|    7    | Decision tree tuned         |       87.06 |      82.02 |
-|    8    | Random forest         |       99.70 |      97.93 |
-|    9    | Random forest tuned         |       84.24 |      84.11 |
-|    10    | Gradient Boosting Regressor         |       99.87 |      98.17 |
-|    11    | Gradient Boosting Regressor Tuned         |       99.58 |      95.11 |
+![MasterHead](Media/image.png)
 
 ## Conclusion
 
-In the dynamic landscape of product and service-based businesses, the ability to forecast sales is paramount. This project, undertaken during the data science internship at Oasis Infobyte, delved into the realm of sales prediction using machine learning with Python. Let's encapsulate the key findings:
+In the dynamic landscape of product and service-based businesses, the ability to forecast sales is paramount. This project, delved into the realm of sales prediction using machine learning with Python. Let's encapsulate the key findings:
 
 **Insights and Observations:**
 
-1. Sales exhibit a positive correlation with both TV and Radio advertising expenses, signifying the effectiveness of these channels.
-2. Notably, there's a strong correlation between TV advertising expenses and sales, emphasizing the impact of TV advertising on driving sales.
+1. Sales exhibit a statistically significant increase in sales on discount days compared to non-discount days. 
+2. Notably, there's a strong correlation between orders and sales.
 3. The R2 score, chosen as the evaluation metric, showcased the accuracy of the model in predicting sales.
-4. The Gradient Boosting model emerged as the preferred choice, achieving an impressive 99% training accuracy and 98% testing accuracy.
+4. The Gradient Boosting model emerged as the preferred choice, achieving 73% training accuracy and 63% testing accuracy.
 
 **Key Takeaways:**
 
-- Understanding the correlation between advertising expenses and sales aids in strategic decision-making.
+- Understanding the correlation between orders and sales with respect to discount and holidays aids in strategic decision-making.
 - The selected model demonstrates robust predictive capabilities, laying the groundwork for effective sales planning.
 - The R2 score provides a reliable indicator of the model's accuracy in forecasting sales trends.
 
